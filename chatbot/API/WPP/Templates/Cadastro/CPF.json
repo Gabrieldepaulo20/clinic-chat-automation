@@ -1,0 +1,8 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "text",
+    "text": {
+      "body": "Obrigado! Agora, poderia me informar novamente seu CPF? Ele é necessário para registrar seu atendimento."
+    }
+}  

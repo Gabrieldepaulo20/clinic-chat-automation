@@ -1,0 +1,49 @@
+{
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "{{PHONE_NUMBER}}",
+  "type": "interactive",
+  "interactive": {
+    "type": "list",
+    "header": {
+      "type": "text",
+      "text": "Olá, sou GAW, assistente da clínica XXX"
+    },
+    "body": {
+      "text": "Como posso te ajudar?"
+    },
+    "footer": {
+      "text": "Selecione uma opção abaixo"
+    },
+    "action": {
+      "button": "Ver opções",
+      "sections": [
+        {
+          "title": "Serviços",
+          "rows": [
+            {
+              "id": "14",
+              "title": "MARCAR CONSULTA"
+            },
+            {
+              "id": "2",
+              "title": "CONSULTAS AGENDADAS"
+            },
+            {
+              "id": "5",
+              "title": "CANCELAR CONSULTAS"
+            },
+            {
+              "id": "4",
+              "title": "FALAR COM ATENDENTE"
+            },
+            {
+              "id": "duvidas_frequentes",
+              "title": "DÚVIDAS FREQUENTES"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

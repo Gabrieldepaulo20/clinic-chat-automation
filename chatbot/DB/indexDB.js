@@ -1,0 +1,21 @@
+module.exports = {
+    ConnectDB: require('./ConnectDB').ConnectDB,
+    getEtapa: require('./getEtapa').getEtapa,
+    getMessageById: require('./getMessageById').getMessageById,
+    getMessageByName: require('./getMessageByName').getMessageByName,
+    getUserAtive: require('./getUserAtive').getUserAtive,
+    getUserByCPF: require('./getUserByCPF').getUserByCPF,
+    getUserByNumber: require('./getUserByNumber').getUserByNumber,
+    getNumberByNumber: require('./getNumberByNumber').getNumberByNumber,
+    getUserAtive: require ('./getUserAtive').getUserAtive,
+    insertImage: require('./insertImage').insertImage,
+    insertNumber: require('./insertNumber').insertNumber,
+    insertUsers: require('./insertUsers').insertUsers,
+    updateEtapa: require('./updateEtapa').updateEtapa,
+    updateStatus: require('./updateStatus').updateStatus,
+    updateUser: require('./updateUser').updateUser,
+    upsertMessage: require('./upsertMessage').upsertMessage,
+    showTablesTESTE: require('./showTablesTESTE').showTablesTESTE,
+    insertNumber: require('./insertNumber').insertNumber,
+    getUserByID: require ('./getUserByID').getUserByID
+  };

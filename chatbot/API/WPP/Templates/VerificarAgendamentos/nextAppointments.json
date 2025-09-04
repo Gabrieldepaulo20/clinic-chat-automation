@@ -1,0 +1,9 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "text",
+    "text": {
+      "body": "Suas consultas nos próximos dias:\n\n {{NEXT_APPOINTMENTS}}"
+    }
+  }
+  

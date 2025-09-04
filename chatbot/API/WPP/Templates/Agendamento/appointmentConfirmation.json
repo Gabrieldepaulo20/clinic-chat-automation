@@ -1,0 +1,9 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "text",
+    "text": {
+      "body": "Pronto, sua consulta foi agendada para o dia {{DIA_AGENDADO}}, se precisar remarcar ou tiver qualquer dúvida, é só me chamar por aqui!"
+    }
+  }
+  

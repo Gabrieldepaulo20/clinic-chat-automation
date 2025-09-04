@@ -1,0 +1,9 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "text",
+    "text": {
+      "body": "Antes de prosseguirmos, parece que não existe um cadastro nesse CPF.\nVamos começar? Qual é o seu nome completo, por favor?"
+    }
+}
+  

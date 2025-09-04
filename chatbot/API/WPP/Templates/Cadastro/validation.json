@@ -1,0 +1,8 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "text",
+    "text": {
+      "body": "Estamos encaminhando suas informações para nossa recepcionista validar o plano ou a indicação. Já te respondo em breve!"
+    }
+}  

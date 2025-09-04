@@ -1,0 +1,30 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "interactive",
+    "interactive": {
+      "type": "button",
+      "body": {
+        "text": "Só mais uma pergunta: você veio por indicação?"
+      },
+      "action": {
+        "buttons": [
+          {
+            "type": "reply",
+            "reply": {
+              "id": "17",
+              "title": "SIM"
+            }
+          },
+          {
+            "type": "reply",
+            "reply": {
+              "id": "13",
+              "title": "NÃO"
+            }
+          }
+        ]
+      }
+    }
+  }
+  

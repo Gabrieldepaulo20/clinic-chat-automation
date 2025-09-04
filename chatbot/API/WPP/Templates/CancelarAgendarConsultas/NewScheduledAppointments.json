@@ -1,0 +1,6 @@
+{
+  "messaging_product": "whatsapp",
+  "to": "{{PHONE_NUMBER}}",
+  "type": "text",
+  "text": { "body": "Clique aqui para acessar suas consultas: {{URL_SITE}}" }
+}

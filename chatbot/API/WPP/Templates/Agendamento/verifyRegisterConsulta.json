@@ -1,0 +1,9 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "text",
+    "text": {
+      "body": "Antes de agendarmos sua consulta, me informa o CPF de quem será atendido, por favor? Assim verificamos se já temos o cadastro."
+    }
+}
+  

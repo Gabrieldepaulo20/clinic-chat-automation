@@ -1,0 +1,9 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "text",
+    "text": {
+      "body": "Sua consulta foi remarcada para o dia {{DIA}} às {{HORA}}."
+    }
+}
+  

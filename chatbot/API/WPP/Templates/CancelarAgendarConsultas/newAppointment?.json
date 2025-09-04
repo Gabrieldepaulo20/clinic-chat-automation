@@ -1,0 +1,30 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "interactive",
+    "interactive": {
+      "type": "button",
+      "body": {
+        "text": "Você gostaria de marcar um novo horário para a consulta desejada?"
+      },
+      "action": {
+        "buttons": [
+          {
+            "type": "reply",
+            "reply": {
+              "id": "7",
+              "title": "SIM"
+            }
+          },
+          {
+            "type": "reply",
+            "reply": {
+              "id": "18",
+              "title": "NÃO"
+            }
+          }
+        ]
+      }
+    }
+  }
+  

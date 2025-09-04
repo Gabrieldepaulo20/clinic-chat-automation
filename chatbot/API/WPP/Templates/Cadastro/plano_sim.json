@@ -1,0 +1,8 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "text",
+    "text": {
+      "body": "Perfeito! Pode me enviar uma foto do documento do seu plano, por gentileza? Assim conseguimos validar as informações."
+    }
+}  

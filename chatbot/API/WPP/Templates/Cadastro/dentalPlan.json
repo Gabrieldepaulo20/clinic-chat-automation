@@ -1,0 +1,30 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "{{PHONE_NUMBER}}",
+    "type": "interactive",
+    "interactive": {
+      "type": "button",
+      "body": {
+        "text": "Você possui algum plano odontológico?"
+      },
+      "action": {
+        "buttons": [
+          {
+            "type": "reply",
+            "reply": {
+              "id": "16",
+              "title": "SIM"
+            }
+          },
+          {
+            "type": "reply",
+            "reply": {
+              "id": "12",
+              "title": "NÃO"
+            }
+          }
+        ]
+      }
+    }
+  }
+  
