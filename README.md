@@ -16,7 +16,7 @@ WhatsApp **chatbot** para **clínicas odontológicas**, com painel web da recep�
 - ⏰ **Mensagens automáticas** (ex.: 12h antes da consulta).
 - 💾 Armazenamento de **encaminhamentos/relatórios** no **Amazon S3**.
 - 💰 **Otimização de custos** (desligamento noturno via EventBridge+Lambda).
-- 🔒 Boas práticas: sem segredos no repositório; uso de variáveis de ambiente e IAM.
+- 🔒 Boas práticas: uso de variáveis de ambiente e IAM.
 
 ---
 
@@ -90,7 +90,7 @@ TZ=America/Sao_Paulo
 STAGE=prod
 ```
 
-> **Nunca** commit `.env`, chaves, tokens ou segredos. Use **IAM Roles** e **AWS Secrets Manager** em produção.
+> **Nunca** commit `.env`, chaves, tokens ou secrets. Use **IAM Roles** e **AWS Secrets Manager** em produção.
 
 ---
 
@@ -98,7 +98,7 @@ STAGE=prod
 
 1) **Crie o banco** no RDS (ou local):
 ```sql
-CREATE DATABASE odontochat CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE odontochat;
 ```
 
 2) **Restaure o dump**:
@@ -228,7 +228,7 @@ node index.js  # se o handler tiver runner local
 ## 👮 Segurança
 
 - Use **IAM Role** por função Lambda (princípio do privilégio mínimo).
-- Nunca exponha tokens/segredos no código. Preferir **Secrets Manager**.
+- Nunca exponha tokens/secrets no código. Preferir **Secrets Manager**.
 - Ative **CloudWatch Logs** e monitore erros/latências.
 - Restrinja o acesso ao **RDS** (subnet privada + SGs) quando for produção.
 
@@ -251,7 +251,7 @@ node index.js  # se o handler tiver runner local
 
 ---
 
-## ▶️ Passo a passo resumido (mão na massa)
+## ▶️ Resumo
 
 1. **Baixe/clonar** esta pasta do GitHub.
 2. Dentro dela, você verá **4 pastas**: `dump/` + **3 Lambdas** (`lambda-whatsapp-webhook/`, `lambda-scheduler/`, `lambda-admin-api/`).
